@@ -37,4 +37,11 @@ jobs:
        poetry run task lint
     - name: Test with pytest
       run: |
-        poetry run task test
+        poetry run task formatter
+    - name: Test with security
+      run: |
+        poetry runk task security
+   - name: Test with test
+     run: |
+       poetry runk task test
+      
