@@ -112,6 +112,7 @@ jobs:
   
 
     runs-on: ubuntu-latest
+    needs: analiza
     defaults:
       run:
         working-directory: ./example-app
