@@ -41,7 +41,7 @@ jobs:
     - name: Test with security
       run: |
         poetry runk task security
-   - name: Test with test
-     run: |
+    - name: Test with test
+      run: |
        poetry runk task test
       
