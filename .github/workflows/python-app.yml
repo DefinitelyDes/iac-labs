@@ -112,7 +112,7 @@ jobs:
   
 
     runs-on: ubuntu-latest
-    needs: analiza
+    needs: [lint, formatter, security]
     defaults:
       run:
         working-directory: ./example-app
