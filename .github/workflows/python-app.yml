@@ -14,14 +14,17 @@ permissions:
 
 jobs:
   build:
-  
-
-    runs-on: ubuntu-latest
-    defaults:
+   strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+   runs-on: ${{matrix.os}}
+    
+   defaults:
       run:
         working-directory: ./example-app
+        shell: bash
 
-    steps:
+   steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
