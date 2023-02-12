@@ -1,21 +1,4 @@
-Skip to content
-F4LCON1
-/
-iac-labs
-Public
-forked from p3wv/iac-labs
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-Python application
-Update python-app.yml #18
-Workflow file for this run
-.github/workflows/python-app.yml at 397b97d
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+# This workflow will install Python dependencies, run tests and lint with a single version of Python For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
 name: Python application
 
