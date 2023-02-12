@@ -168,5 +168,4 @@ jobs:
     - name: Test with test
       run: |
        source $VENV
-       poetry run task test   
-Update 
+       poetry run task test
