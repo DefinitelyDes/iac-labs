@@ -51,7 +51,7 @@ jobs:
 
     runs-on: ubuntu-latest
     concurrency:
-      group: analyzys
+      group: analiza
     needs: build
     
     defaults:
@@ -89,7 +89,7 @@ jobs:
 
     runs-on: ubuntu-latest
     concurrency:
-      group: analyzyz
+      group: analiza
     needs: build
     
     defaults:
@@ -126,7 +126,7 @@ jobs:
 
     runs-on: ubuntu-latest
     concurrency:
-      group: analyzyz
+      group: analiza
     needs: build
     
     defaults:
